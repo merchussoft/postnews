@@ -44,6 +44,10 @@ main {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
+main .date_created {
+    font-size: 12px;
+}
+
 main:hover {
     transform: scale(1.05);
 }
