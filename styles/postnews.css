@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    /*color: #642a73; */
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Header*/
+
+header {
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+header .textos-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    margin: 10px 0;
+}
+
+main a {
+    text-decoration: none;
+}
+
+main .post-news {
+    display: flex;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    color: #000000;
+}
+
+main .post-news:hover {
+    transform: scale(1.05);
+}
+
+main .contenedor-descriptions {
+    text-align: justify;
+    font-size: 14px;
+    margin: 5px;
+}
+
+main .created-date {
+    font-size: 12px;
+    color: rgba(0,0,0,0.4);
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+}
+
+footer .redes-sociales-footer {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .redes-sociales-footer a {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+footer .redes-sociales-footer a:hover {
+    background-color: #000; /* Cambia el color al hacer hover */
+    transform: scale(1.05);
+}
